@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - "main"
-#  schedule:
-#    # Run every Saturday at 7 PM
-#    - cron: '0 19 * * 6'
+  schedule:
+    # Run every Saturday at 7 PM
+    - cron: '0 19 * * 6'
 env:
   TEST_TAG: khalouda11/appsilon-hello-r:test
   LATEST_TAG: khalouda11/appsilon-hello-r:latest
